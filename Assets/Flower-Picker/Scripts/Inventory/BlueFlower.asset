@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: BlueFlower
   m_EditorClassIdentifier: 
   id: Inv_BlueFlower
-  displayName: BlueFlower
-  icon: {fileID: 21300004, guid: 058baa77152500b45bb9e28cb5702ffa, type: 3}
+  displayName: BLUE HYDRANGEA
+  description: It stands for prosperity, grace, and beauty. While it also expresses
+    deeper understanding between two people.
+  rarity: 0
+  icon: {fileID: 21300000, guid: 23f4e0f3c91f5794aaeca0c13366d6c3, type: 3}
   flowerPrefab: {fileID: 1356962737663324984, guid: 08023c8c07adb2144a55cc6ceb3bb3e0, type: 3}
+  flowerType: 2
+  amount: 0

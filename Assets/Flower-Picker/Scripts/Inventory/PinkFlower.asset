@@ -13,6 +13,10 @@ MonoBehaviour:
   m_Name: PinkFlower
   m_EditorClassIdentifier: 
   id: Inv_PinkFlower
-  displayName: PinkFlower
-  icon: {fileID: 21300014, guid: 058baa77152500b45bb9e28cb5702ffa, type: 3}
+  displayName: Pink Peonie
+  description: Pink peonies mean prosperity
+  rarity: 0
+  icon: {fileID: 21300000, guid: 39ca903789196f94dbfb4606373e7a3a, type: 3}
   flowerPrefab: {fileID: 7954960198635316542, guid: f5787f2b543fea649b65b7743b51e7ef, type: 3}
+  flowerType: 3
+  amount: 0

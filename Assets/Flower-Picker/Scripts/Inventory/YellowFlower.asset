@@ -13,6 +13,13 @@ MonoBehaviour:
   m_Name: YellowFlower
   m_EditorClassIdentifier: 
   id: Inv_YellowFlower
-  displayName: YellowFlower
-  icon: {fileID: 21300012, guid: 058baa77152500b45bb9e28cb5702ffa, type: 3}
+  displayName: Daisy
+  description: Due to their bright and cheerful nature, daisies are most often used
+    to symbolize purity and innocence, which came from a Celtic legend. According
+    to this legend, God would sprinkle daisies over the earth to cheer up parents
+    who had lost a child.
+  rarity: 0
+  icon: {fileID: 21300000, guid: a12b8581ac775ea4786932508be8c6fc, type: 3}
   flowerPrefab: {fileID: 6520636371167157320, guid: ac1a6667984a26a4a9d8c24aef73c3d3, type: 3}
+  flowerType: 1
+  amount: 0

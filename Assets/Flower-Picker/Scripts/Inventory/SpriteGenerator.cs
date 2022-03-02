@@ -17,6 +17,14 @@ public class SpriteGenerator : MonoBehaviour
         cam = GetComponent<Camera>();
     }
 
+    private void Start()
+    {
+        if (Input.GetKey(KeyCode.S))
+        {
+            
+        }
+    }
+
     [ContextMenu("Screenshot")]
     private void ProcessScreenshots()
     {
