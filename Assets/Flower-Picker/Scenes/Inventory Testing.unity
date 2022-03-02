@@ -506,7 +506,7 @@ MonoBehaviour:
   selectedItem: {fileID: 0}
   currentItem: {fileID: 0}
   slotPrefab: {fileID: 0}
-  inventorySlotParent: {fileID: 1726433131}
+  inventorySlotParent: {fileID: 0}
   use: {fileID: 0}
   discard: {fileID: 0}
   player: {fileID: 0}
