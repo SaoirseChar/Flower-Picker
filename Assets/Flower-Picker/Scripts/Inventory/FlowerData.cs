@@ -1,73 +1,33 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Inventory Flower Data")]
 public class FlowerData : ScriptableObject
 {
-    [Tooltip("Reference to flower")] public string id;
+    [Tooltip("Reference to flower")] public int id;
     [Tooltip("The name of the flower")] public string displayName;
-    [Tooltip("The description of the flower")] public string description;
-    [Tooltip("How rare the flowe is")] public int rarity;
-    [Tooltip("Icon image for flower")] public Sprite icon;
-    [Tooltip("Flower object")] public GameObject flowerPrefab;
 
-    public enum FlowerType
-    {
-        Red,
-        Yellow,
-        Blue,
-        Pink,
-    }
+    [Tooltip("The description of the flower"), TextArea(15, 20)]
+    public string description;
 
-    public FlowerType flowerType;
+    [Tooltip("How rare the flower is")] public int rarity;
     public int amount;
+    [Tooltip("Icon image for flower")] public Sprite icon;
+    [Tooltip("Type of flower")]public FlowerTypes type;
+    [Tooltip("Flower object")] public GameObject flowerPrefab;
+    public bool Stackable { get; set; }
     
-    public string ID //allowing id to be modified outside script
+    public bool showInInventory = true;
+
+    // Called when the item is pressed in the inventory
+    public virtual void Use ()
     {
-        get { return id; }
-        set { id = value; }
+        // Use the item
+        // Something may happen
     }
 
-    public string Name
+    // Call this method to remove the item from inventory
+    public void RemoveFromInventory ()
     {
-        get { return name; }
-        set { name = value; }
-    }
-
-    public string Description
-    {
-        get { return description; }
-        set { description = value; }
-    }
-
-    public int Rarity
-    {
-        get { return rarity; }
-        set { rarity = value; }
-    }
-
-    public int Amount
-    {
-        get { return amount; }
-        set { amount = value; }
-    }
-
-    public Sprite Icon
-    {
-        get { return icon; }
-        set { icon = value; }
-    }
-
-    public GameObject Mesh
-    {
-        get { return flowerPrefab; }
-        set { flowerPrefab = value; }
-    }
-
-    public FlowerType Type
-    {
-        get { return flowerType; }
-        set { flowerType = value; }
+        Inventory.instance.Remove(this);
     }
 }

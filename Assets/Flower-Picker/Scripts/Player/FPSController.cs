@@ -19,8 +19,8 @@ namespace FlowerPicker.Player
 		private float rotationX = 0;
 		private bool canMove = true;
 
-		private Inventory inv;
-
+		//public float currentHealth;
+		
 		private void Awake()
 		{
 			
@@ -75,22 +75,6 @@ namespace FlowerPicker.Player
 				rotationX = Mathf.Clamp(rotationX, -lookXLimit, lookXLimit);
 				playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
 				transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
-			}
-
-			if (Input.GetKeyDown(KeyCode.P))
-			{
-				
-			}
-		}
-		
-		private void OnTriggerEnter(Collider _collider) //To pick up item
-		{
-			InWorldItems items = _collider.GetComponent<InWorldItems>(); //if player collides with item
-			{
-				inv.AddItem(items.itemData); //add to inventory
-				inv.DisplayItem(items.itemData); //display info
-				print("Item has been picked up");
-				Destroy(items.gameObject);
 			}
 		}
 	}
