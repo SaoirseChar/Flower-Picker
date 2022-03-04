@@ -1,3 +1,4 @@
+using Sirenix.OdinInspector;
 using Unity.Collections;
 using UnityEngine;
 
@@ -9,7 +10,7 @@ namespace FlowerPicker.Environment
     /// </summary>
     public class SkyAnim : MonoBehaviour
     {
-        [Header("How to use")] [SerializeField] [ReadOnly] private string guideURL = "https://ibb.co/nfMDSXh";
+        [Header("How to use")] [SerializeField] [Sirenix.OdinInspector.ReadOnly] private string guideURL = "https://ibb.co/nfMDSXh";
         [Header("The material used for the Skybox")] [SerializeField] private Material skyboxMat;
         [Header("Directional Light Rotation Point")] [SerializeField] private GameObject directionalLight;
         [Header("Speed the light and skybox to rotates at")]
