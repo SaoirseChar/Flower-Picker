@@ -19,13 +19,6 @@ namespace FlowerPicker.Player
 		private float rotationX = 0;
 		private bool canMove = true;
 
-		//public float currentHealth;
-		
-		private void Awake()
-		{
-			
-		}
-
 		void Start()
 		{
 			characterController = GetComponentInChildren<CharacterController>();
