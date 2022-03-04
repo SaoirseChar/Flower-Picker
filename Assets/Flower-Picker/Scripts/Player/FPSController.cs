@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using DevionGames;
 
 namespace FlowerPicker.Player
 {
@@ -22,7 +23,7 @@ namespace FlowerPicker.Player
 		void Start()
 		{
 			characterController = GetComponentInChildren<CharacterController>();
-			playerCamera = GetComponentInChildren<Camera>();
+			playerCamera = Camera.main;
 
 			// Lock cursor
 			Cursor.lockState = CursorLockMode.Locked;
