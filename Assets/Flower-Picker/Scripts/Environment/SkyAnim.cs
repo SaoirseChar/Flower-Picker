@@ -27,12 +27,12 @@ namespace FlowerPicker.Environment
             // Get the Current Skybox Rotation.
             currentSkyboxRotation = skyboxMat.GetFloat("_Rotation");
             
-            // Get the current Directional light parent Game Object rotation.
-            currentDirectionalLightRotation = directionalLightTransform.rotation.eulerAngles;
             
             // Make the directional ligh transform = normal light transform (so we dont need to get it every frame)
             directionalLightTransform = directionalLight.transform;
             
+            // Get the current Directional light parent Game Object rotation.
+            currentDirectionalLightRotation = directionalLightTransform.rotation.eulerAngles;
             
             SaveOriginalLightAndSkyboxRotations(currentSkyboxRotation,currentDirectionalLightRotation);
         }

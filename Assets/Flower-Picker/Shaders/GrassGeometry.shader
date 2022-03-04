@@ -1,5 +1,5 @@
 Shader "Unlit/GrassGeometry"
-//Shader "Geometry/GrassGeometryShaderUnlit"
+// 
 {
     Properties
     {

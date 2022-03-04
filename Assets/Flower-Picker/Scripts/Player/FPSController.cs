@@ -7,6 +7,8 @@ namespace FlowerPicker.Player
 	{
 		[SerializeField] private float walkingSpeed = 7.5f;
 		[SerializeField] private float runningSpeed = 11.5f;
+		[SerializeField] private float crouchSpeed = 4f;
+		[SerializeField] private float crouchHeight = 4f;
 		[SerializeField] private float jumpSpeed = 8.0f;
 		[SerializeField] private float gravity = 20.0f;
 		[SerializeField] private Camera playerCamera;
