@@ -108,6 +108,7 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -296,6 +297,7 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -867,6 +869,7 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -981,6 +984,7 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -1131,8 +1135,6 @@ GameObject:
   - component: {fileID: 8277663194983554755}
   - component: {fileID: 8277663194983554808}
   - component: {fileID: 2782448489115420378}
-  - component: {fileID: 440406481}
-  - component: {fileID: 440406494}
   - component: {fileID: 440406486}
   m_Layer: 9
   m_Name: DefaultAvatar
@@ -1347,6 +1349,7 @@ MonoBehaviour:
   m_CameraPreset: Default
   m_HeightOffset: -1.57
   m_OffsetSmoothing: 0.1
+  m_TriggerName: Ladder
 --- !u!114 &8277663194983554754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1430,50 +1433,6 @@ MonoBehaviour:
   m_State: Slide
   m_CameraPreset: ChangeHeight
   m_HeightAdjustment: -0.8
---- !u!114 &440406481
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8277663194983554772}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 519f6d56fa1bb3b409a519c9a7a198a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FriendlyName: Attack
-  m_InputName: Fire1
-  m_StartType: 1
-  m_StopType: 1
-  m_ConsumeInputOverUI: 0
-  m_PauseItemUpdate: 1
-  m_TransitionDuration: 0.2
-  m_State: Sword Slash
-  m_CameraPreset: Default
-  m_RecurrenceDelay: 0.2
---- !u!114 &440406494
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8277663194983554772}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 519f6d56fa1bb3b409a519c9a7a198a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FriendlyName: Attack
-  m_InputName: Fire1
-  m_StartType: 1
-  m_StopType: 1
-  m_ConsumeInputOverUI: 0
-  m_PauseItemUpdate: 1
-  m_TransitionDuration: 0.2
-  m_State: Sword Slash
-  m_CameraPreset: Default
-  m_RecurrenceDelay: 0.2
 --- !u!114 &440406486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1488,8 +1447,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_AudioGroups:
   - name: SFX
-    m_AudioMixerGroup: {fileID: 8643709756097329450, guid: 08813bea6fa2f304d8179aec903c1bd9,
-      type: 2}
+    m_AudioMixerGroup: {fileID: 8643709756097329450, guid: 08813bea6fa2f304d8179aec903c1bd9, type: 2}
 --- !u!1 &8277663195043397579
 GameObject:
   m_ObjectHideFlags: 0
@@ -1576,6 +1534,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -1600,6 +1559,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8277663195070478657
 GameObject:
   m_ObjectHideFlags: 0
@@ -2448,6 +2408,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -2472,6 +2433,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8277663195734883282
 GameObject:
   m_ObjectHideFlags: 0
@@ -2733,7 +2695,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8277663195998151760
 Transform:
   m_ObjectHideFlags: 0
@@ -2767,7 +2729,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8277663196023070626
 Transform:
   m_ObjectHideFlags: 0

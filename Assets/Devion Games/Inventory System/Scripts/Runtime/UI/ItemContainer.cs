@@ -318,7 +318,6 @@ namespace DevionGames.InventorySystem
                 Trigger.currentUsedTrigger = trigger;
                 Trigger.currentUsedWindow = this;
             }
-             
         }
 
         /// <summary>
