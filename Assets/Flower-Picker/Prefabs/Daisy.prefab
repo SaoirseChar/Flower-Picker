@@ -176,7 +176,6 @@ GameObject:
   - component: {fileID: 7006552426032771444}
   - component: {fileID: 2141545180621723408}
   - component: {fileID: 140458525}
-  - component: {fileID: 140458524}
   m_Layer: 0
   m_Name: Daisy
   m_TagString: Untagged
@@ -216,10 +215,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delegates: []
-  useDistance: 1.2
+  useDistance: -1
   triggerType: 9
   key: 102
-  actionTemplate: {fileID: 0}
+  actionTemplate: {fileID: 11400000, guid: d8b3a6d24d3b6954aa37fd14de58358e, type: 2}
   actions:
   - id: 0
   - id: 1
@@ -304,20 +303,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.1, y: 0.1, z: 0.1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &140458524
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4164422254194027874}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95ff8949b55037043a6183d61fd8dcff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Title: Daisy
-  m_Instruction: Pickup
 --- !u!1 &4294190772346774765
 GameObject:
   m_ObjectHideFlags: 0

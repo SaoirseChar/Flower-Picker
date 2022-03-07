@@ -73,10 +73,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delegates: []
-  useDistance: 1.2
+  useDistance: -1
   triggerType: 9
   key: 102
-  actionTemplate: {fileID: 0}
+  actionTemplate: {fileID: 11400000, guid: d8b3a6d24d3b6954aa37fd14de58358e, type: 2}
   actions:
   - id: 0
   - id: 1
