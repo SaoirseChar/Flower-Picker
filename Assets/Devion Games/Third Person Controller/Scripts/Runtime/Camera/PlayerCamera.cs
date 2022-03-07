@@ -52,7 +52,7 @@ namespace DevionGames
 		private Image m_CrosshairImage;
         private bool m_CrosshairActive;
         private bool m_RotatedLastFrame;
-        private bool m_CharacterControllerActive = true;
+        private bool m_CharacterControllerActive=true;
 
 		private void Start ()
 		{
