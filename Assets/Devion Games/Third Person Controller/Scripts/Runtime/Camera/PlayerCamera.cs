@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 namespace DevionGames
 {
-	public class ThirdPersonCamera : MonoBehaviour
+	public class PlayerCamera : MonoBehaviour
 	{
 		[SerializeField]
 		private bool m_DontDestroyOnLoad = true;

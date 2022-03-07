@@ -6,7 +6,7 @@ using UnityEditorInternal;
 
 namespace DevionGames
 {
-	[CustomEditor (typeof(ThirdPersonCamera))]
+	[CustomEditor (typeof(PlayerCamera))]
 	public class ThirdPersonCameraEditor : Editor
 	{
 		private SerializedProperty m_Presets;
@@ -14,11 +14,11 @@ namespace DevionGames
 		private SerializedProperty m_Script;
 		private int m_RenameIndex = -1;
 		private int m_ClickCount;
-		private ThirdPersonCamera m_Camera;
+		private PlayerCamera m_Camera;
 
 		private void OnEnable ()
 		{
-			this.m_Camera = target as ThirdPersonCamera;
+			this.m_Camera = target as PlayerCamera;
 			this.m_Presets = serializedObject.FindProperty ("m_Presets");
 			this.m_PresetList = new ReorderableList (serializedObject, this.m_Presets, true, true, true, true) {
 				drawHeaderCallback = new ReorderableList.HeaderCallbackDelegate (DrawPresetHeader),

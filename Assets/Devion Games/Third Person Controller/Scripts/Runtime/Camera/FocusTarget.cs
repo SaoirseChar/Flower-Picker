@@ -19,20 +19,20 @@ namespace DevionGames
         private bool m_SpinTarget = true;
 
         private bool m_Focus;
-        private ThirdPersonCamera m_ThirdPersonCamera;
+        private PlayerCamera mPlayerCamera;
         private bool m_TargetRotationFinished = false;
         private bool m_GUIClick;
 
         private void Start()
         {
-            this.m_ThirdPersonCamera = GetComponent<ThirdPersonCamera>();
+            this.mPlayerCamera = GetComponent<PlayerCamera>();
         }
 
         // Update is called once per frame
         private void Update()
         {
             if (this.m_Focus) {
-                Transform target = this.m_ThirdPersonCamera.Target;
+                Transform target = this.mPlayerCamera.Target;
                 Vector3 targetPosition = target.position + this.m_OffsetPosition.x * target.right + this.m_OffsetPosition.y* target.up;
                 Vector3 direction = -m_Distance * transform.forward;
                 Vector3 desiredPosition = targetPosition + direction;
@@ -42,10 +42,10 @@ namespace DevionGames
 
                 if (!this.m_TargetRotationFinished)
                 {
-                    Vector3 cameraDirection = transform.position - this.m_ThirdPersonCamera.Target.position;
+                    Vector3 cameraDirection = transform.position - this.mPlayerCamera.Target.position;
                     cameraDirection.y = 0f;
                     Quaternion targetRotation = Quaternion.LookRotation(cameraDirection, Vector3.up);
-                    this.m_ThirdPersonCamera.Target.rotation = Quaternion.Lerp(target.rotation, targetRotation, Time.deltaTime * this.m_Speed);
+                    this.mPlayerCamera.Target.rotation = Quaternion.Lerp(target.rotation, targetRotation, Time.deltaTime * this.m_Speed);
                     if (Quaternion.Angle(target.rotation, targetRotation) < 0.1f)
                     {
                         this.m_TargetRotationFinished = true;
@@ -76,7 +76,7 @@ namespace DevionGames
             this.m_TargetRotationFinished = false;
             this.m_GUIClick = false;
             if (this.m_Focus) {
-                this.m_ThirdPersonCamera.Target.SendMessage("Deselect", SendMessageOptions.DontRequireReceiver);
+                this.mPlayerCamera.Target.SendMessage("Deselect", SendMessageOptions.DontRequireReceiver);
             }
         }
     }

@@ -61,7 +61,7 @@ namespace DevionGames.InventorySystem
 			set{ this.m_Icon = value; }
 		}
 
-        [Tooltip("The prefab to instantiate when an item is draged out of a container. This prefab is also used to place the item in scene, so the player can pickup the item.")]
+        [Tooltip("The prefab to instantiate when an item is dragged out of a container. This prefab is also used to place the item in scene, so the player can pickup the item.")]
 		[SerializeField]
 		private GameObject m_Prefab;
 
@@ -117,13 +117,6 @@ namespace DevionGames.InventorySystem
             }
             set { this.m_Rarity = value; }
 		}
-
-        /*[SerializeField]
-        private List<Rarity> m_PossibleRarity=new List<Rarity>();
-        public List<Rarity> PossibleRarity {
-            get { return this.m_PossibleRarity; }
-            set { this.m_PossibleRarity = value; }
-        }*/
 
         [Tooltip("Is this item sellable to a vendor? More options will appear if it is sellable.")]
         [SerializeField]

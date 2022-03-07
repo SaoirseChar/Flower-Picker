@@ -141,7 +141,7 @@ namespace DevionGames
 		}
 
 		protected Animator m_Animator;
-		protected ThirdPersonCamera m_Camera;
+		protected PlayerCamera m_Camera;
 		protected Rigidbody m_Rigidbody;
 		protected CapsuleCollider m_CapsuleCollider;
 		protected ThirdPersonController m_Controller;
@@ -156,7 +156,7 @@ namespace DevionGames
 			this.m_Animator = this.m_Transform.GetComponent<Animator> ();
 			this.m_Rigidbody = this.m_Transform.GetComponent<Rigidbody> ();
 			this.m_CapsuleCollider = this.m_Transform.GetComponent<CapsuleCollider> ();
-			this.m_Camera = Camera.main.GetComponent<ThirdPersonCamera>();
+			this.m_Camera = Camera.main.GetComponent<PlayerCamera>();
 
 			ThirdPersonController[] controllers = this.m_Transform.GetComponents<ThirdPersonController> ();
 			for (int i = 0; i < controllers.Length; i++) {
