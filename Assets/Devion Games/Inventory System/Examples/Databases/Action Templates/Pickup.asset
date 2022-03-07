@@ -36,7 +36,7 @@ MonoBehaviour:
         m_Type: DevionGames.SetEnabled
         m_Enabled: 1
         m_Target: 1
-        m_ComponentName: ThirdPersonController
+        m_ComponentName: FPSController
         m_Enable: 0
     00000002:
       type: {class: LookAtTrigger, ns: DevionGames, asm: DevionGames.Triggers}
@@ -71,7 +71,7 @@ MonoBehaviour:
         m_Type: DevionGames.SetEnabled
         m_Enabled: 1
         m_Target: 1
-        m_ComponentName: ThirdPersonController
+        m_ComponentName: FPSController
         m_Enable: 1
     00000007:
       type: {class: SetConstraints, ns: DevionGames, asm: DevionGames.Triggers}
