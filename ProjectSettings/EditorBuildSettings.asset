@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Flower-Picker/Scenes/Inventory Testing.unity
+    guid: 641d6f3c087b3504b8ff0b69ae32e617
+  - enabled: 1
+    path: Assets/Flower-Picker/Scenes/TestTransition.unity
+    guid: c9bbe0f5ae0da5f4a812d03741975f7f
   m_configObjects: {}
