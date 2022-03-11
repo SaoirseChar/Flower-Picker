@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 1068759301366330380}
   - component: {fileID: 619444491807540701}
   - component: {fileID: 1533597887288335446}
-  - component: {fileID: 1723916845}
   - component: {fileID: 1933945284}
   m_Layer: 0
   m_Name: New TestDaffodil(Clone)
@@ -136,7 +135,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   saveable: 1
   m_Items:
-  - {fileID: -1867141717495844328, guid: 59d40980b70fdc34098aba88c09c7f92, type: 2}
+  - {fileID: -8865146063551466327, guid: 59d40980b70fdc34098aba88c09c7f92, type: 2}
   m_Amounts: 01000000
   m_Modifiers:
   - modifiers: []
@@ -159,27 +158,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1723916845
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7125565368577016036}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47617ef9c17742a418ac1323b2041aac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delegates: []
-  item: {fileID: -1867141717495844328, guid: 59d40980b70fdc34098aba88c09c7f92, type: 2}
-  attachments:
-  - region: {fileID: -5143927350549120641, guid: 59d40980b70fdc34098aba88c09c7f92, type: 2}
-    prefab: {fileID: 7125565368577016036}
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0}
-    scale: {x: 0.1, y: 0.1, z: 0.1}
-    gameObject: {fileID: 0}
 --- !u!65 &1933945284
 BoxCollider:
   m_ObjectHideFlags: 0

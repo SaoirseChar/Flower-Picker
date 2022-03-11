@@ -96,7 +96,7 @@ namespace DevionGames.InventorySystem
             public GameObject Instantiate(EquipmentHandler handler) {
                 gameObject = GameObject.Instantiate(prefab, handler.GetBone(region));
                 gameObject.SetActive(true);
-                //Calean prefab, not the best way, but keeps the project clean from duplicate prefabs.
+                //Clean prefab, not the best way, but keeps the project clean from duplicate prefabs.
                 Trigger trigger = gameObject.GetComponent<Trigger>();
                 if (trigger != null) {
                     Destroy(trigger);

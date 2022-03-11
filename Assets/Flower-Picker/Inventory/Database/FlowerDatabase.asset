@@ -16,6 +16,57 @@ MonoBehaviour:
   m_Items: []
   m_Amounts: 
   m_Modifiers: []
+--- !u!114 &-8865146063551466327
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6132cc3558d117f4bbad4651b2dbdba7, type: 3}
+  m_Name: Daffodil
+  m_EditorClassIdentifier: 
+  m_Id: 757a96e1-2a0d-4a3f-b639-85ba9f62d639
+  m_ItemName: Daffodil
+  m_UseItemNameAsDisplayName: 1
+  m_DisplayName: New Item
+  m_Icon: {fileID: 21300012, guid: 058baa77152500b45bb9e28cb5702ffa, type: 3}
+  m_Prefab: {fileID: 7125565368577016036, guid: 53f6b7f56a52d3248a09acd99c6f6b96, type: 3}
+  m_Description: A daffodil.
+  m_Category: {fileID: -4818563383237419559}
+  m_IsSellable: 0
+  m_BuyPrice: 0
+  m_CanBuyBack: 1
+  m_BuyCurrency: {fileID: 0}
+  m_SellPrice: 0
+  m_SellCurrency: {fileID: 0}
+  m_Stack: 1
+  m_MaxStack: 1
+  m_IsDroppable: 1
+  m_DropSound: {fileID: 0}
+  m_OverridePrefab: {fileID: 0}
+  m_IsCraftable: 0
+  m_CraftingDuration: 2
+  m_UseCraftingSkill: 0
+  m_SkillWindow: Skills
+  m_CraftingSkill: {fileID: 0}
+  m_RemoveIngredientsWhenFailed: 0
+  m_MinCraftingSkillValue: 0
+  m_CraftingAnimatorState: Blacksmithy
+  m_CraftingModifier:
+    modifiers: []
+  ingredients: []
+  properties: []
+  m_UseCategoryCooldown: 0
+  m_Cooldown: 0
+  actions: []
+  m_OverrideEquipPrefab: {fileID: 0}
+  m_Region:
+  - {fileID: -7527163196813585796}
+  references:
+    version: 1
 --- !u!114 &-8568097268393850311
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -46,7 +97,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unstackEvent: 3
   unstackKeyCode: 304
---- !u!114 &-8048625010887163521
+--- !u!114 &-7527163196813585796
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -55,16 +106,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e14be5e3e6cf2204293682bf65bce5dc, type: 3}
-  m_Name: Pink
+  m_Script: {fileID: 11500000, guid: b8f5f34ef39fbec438e689ea49ddb023, type: 3}
+  m_Name: Right Side
   m_EditorClassIdentifier: 
-  m_Id: e3ad0d3f-fc77-4186-88f6-1a96ef799076
-  m_ItemName: Pink
+  name: Right Side
+--- !u!114 &-5573779186765255398
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6132cc3558d117f4bbad4651b2dbdba7, type: 3}
+  m_Name: Blue
+  m_EditorClassIdentifier: 
+  m_Id: 9023621b-555e-4b8b-bbfd-2535558858a7
+  m_ItemName: Blue
   m_UseItemNameAsDisplayName: 1
   m_DisplayName: New Item
-  m_Icon: {fileID: 21300000, guid: 39ca903789196f94dbfb4606373e7a3a, type: 3}
-  m_Prefab: {fileID: 1567214763175434471, guid: 8e6954a5c27e51c4ca8eca699010ce91, type: 3}
-  m_Description: Pink flower
+  m_Icon: {fileID: 21300000, guid: 23f4e0f3c91f5794aaeca0c13366d6c3, type: 3}
+  m_Prefab: {fileID: 135237009648689188, guid: b3f5930657d9c5148a2a3895f6bdb46b, type: 3}
+  m_Description: A blue flower.
   m_Category: {fileID: -4818563383237419559}
   m_IsSellable: 0
   m_BuyPrice: 0
@@ -73,7 +137,7 @@ MonoBehaviour:
   m_SellPrice: 0
   m_SellCurrency: {fileID: 0}
   m_Stack: 1
-  m_MaxStack: 10
+  m_MaxStack: 1
   m_IsDroppable: 1
   m_DropSound: {fileID: 0}
   m_OverridePrefab: {fileID: 0}
@@ -89,19 +153,14 @@ MonoBehaviour:
     modifiers: []
   ingredients: []
   properties: []
---- !u!114 &-7527163196813585796
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8f5f34ef39fbec438e689ea49ddb023, type: 3}
-  m_Name: Right Side
-  m_EditorClassIdentifier: 
-  name: Right Side
+  m_UseCategoryCooldown: 0
+  m_Cooldown: 0
+  actions: []
+  m_OverrideEquipPrefab: {fileID: 0}
+  m_Region:
+  - {fileID: -4485341802956301152}
+  references:
+    version: 1
 --- !u!114 &-5143927350549120641
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -316,24 +375,7 @@ MonoBehaviour:
   m_Name: Left Side
   m_EditorClassIdentifier: 
   name: Left Side
---- !u!114 &-2831835066188015469
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d75ad62c39bcb4544a7ae046cdfd8b59, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  contextMenuName: ContextMenu
-  tooltipName: Tooltip
-  sellPriceTooltipName: Sell Price Tooltip
-  stackName: Stack
-  notificationName: Notification
---- !u!114 &-1867141717495844328
+--- !u!114 &-3918515705015356290
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -343,16 +385,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6132cc3558d117f4bbad4651b2dbdba7, type: 3}
-  m_Name: Daffodil
+  m_Name: Daisy
   m_EditorClassIdentifier: 
-  m_Id: b5cb3397-8631-42b3-836c-942d39089d24
-  m_ItemName: Daffodil
+  m_Id: 6891484e-250f-41f6-af7c-83ea36f44a2e
+  m_ItemName: Daisy
   m_UseItemNameAsDisplayName: 1
   m_DisplayName: New Item
-  m_Icon: {fileID: 21300000, guid: 15d5122f2a394f1409403e7a7983b233, type: 3}
-  m_Prefab: {fileID: 7125565368577016036, guid: 53f6b7f56a52d3248a09acd99c6f6b96, type: 3}
-  m_Description: 
-  m_Category: {fileID: 8115454301560725867}
+  m_Icon: {fileID: 21300000, guid: a12b8581ac775ea4786932508be8c6fc, type: 3}
+  m_Prefab: {fileID: 4164422254194027874, guid: e333ee2be6ceabd47832f4c060fcf246, type: 3}
+  m_Description: A daisy flower.
+  m_Category: {fileID: -4818563383237419559}
   m_IsSellable: 0
   m_BuyPrice: 0
   m_CanBuyBack: 1
@@ -384,7 +426,7 @@ MonoBehaviour:
   - {fileID: -5143927350549120641}
   references:
     version: 1
---- !u!114 &-1743156182913918410
+--- !u!114 &-2831835066188015469
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -393,48 +435,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6132cc3558d117f4bbad4651b2dbdba7, type: 3}
-  m_Name: DaisyEquip
+  m_Script: {fileID: 11500000, guid: d75ad62c39bcb4544a7ae046cdfd8b59, type: 3}
+  m_Name: 
   m_EditorClassIdentifier: 
-  m_Id: ae1c6e42-b9d9-4d53-9e99-cfa83c55c435
-  m_ItemName: DaisyEquip
-  m_UseItemNameAsDisplayName: 1
-  m_DisplayName: New Item
-  m_Icon: {fileID: 21300000, guid: a12b8581ac775ea4786932508be8c6fc, type: 3}
-  m_Prefab: {fileID: 4164422254194027874, guid: e333ee2be6ceabd47832f4c060fcf246, type: 3}
-  m_Description: 
-  m_Category: {fileID: 8115454301560725867}
-  m_IsSellable: 0
-  m_BuyPrice: 0
-  m_CanBuyBack: 1
-  m_BuyCurrency: {fileID: 0}
-  m_SellPrice: 0
-  m_SellCurrency: {fileID: 0}
-  m_Stack: 1
-  m_MaxStack: 1
-  m_IsDroppable: 1
-  m_DropSound: {fileID: 0}
-  m_OverridePrefab: {fileID: 0}
-  m_IsCraftable: 0
-  m_CraftingDuration: 2
-  m_UseCraftingSkill: 0
-  m_SkillWindow: Skills
-  m_CraftingSkill: {fileID: 0}
-  m_RemoveIngredientsWhenFailed: 0
-  m_MinCraftingSkillValue: 0
-  m_CraftingAnimatorState: Blacksmithy
-  m_CraftingModifier:
-    modifiers: []
-  ingredients: []
-  properties: []
-  m_UseCategoryCooldown: 0
-  m_Cooldown: 0
-  actions: []
-  m_OverrideEquipPrefab: {fileID: 0}
-  m_Region:
-  - {fileID: -892765762181683183}
-  references:
-    version: 1
+  contextMenuName: ContextMenu
+  tooltipName: Tooltip
+  sellPriceTooltipName: Sell Price Tooltip
+  stackName: Stack
+  notificationName: Notification
 --- !u!114 &-892765762181683183
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -474,11 +482,11 @@ MonoBehaviour:
   m_Name: FlowerDatabase
   m_EditorClassIdentifier: 
   items:
-  - {fileID: 3968749300439717394}
-  - {fileID: 3592197753287780707}
-  - {fileID: -8048625010887163521}
-  - {fileID: -1867141717495844328}
-  - {fileID: -1743156182913918410}
+  - {fileID: -3918515705015356290}
+  - {fileID: 810789739597394985}
+  - {fileID: -5573779186765255398}
+  - {fileID: -8865146063551466327}
+  - {fileID: 2330507610025143267}
   currencies: []
   raritys: []
   categories:
@@ -500,6 +508,57 @@ MonoBehaviour:
   - {fileID: -4770851254427714864}
   - {fileID: 9011307695946369575}
   - {fileID: -2831835066188015469}
+--- !u!114 &810789739597394985
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6132cc3558d117f4bbad4651b2dbdba7, type: 3}
+  m_Name: Pink
+  m_EditorClassIdentifier: 
+  m_Id: c922e24a-c9db-4ef9-9fdd-0cd86d12e6b4
+  m_ItemName: Pink
+  m_UseItemNameAsDisplayName: 1
+  m_DisplayName: New Item
+  m_Icon: {fileID: 21300000, guid: 39ca903789196f94dbfb4606373e7a3a, type: 3}
+  m_Prefab: {fileID: 1567214763175434471, guid: 8e6954a5c27e51c4ca8eca699010ce91, type: 3}
+  m_Description: A pink flower
+  m_Category: {fileID: -4818563383237419559}
+  m_IsSellable: 0
+  m_BuyPrice: 0
+  m_CanBuyBack: 1
+  m_BuyCurrency: {fileID: 0}
+  m_SellPrice: 0
+  m_SellCurrency: {fileID: 0}
+  m_Stack: 1
+  m_MaxStack: 1
+  m_IsDroppable: 1
+  m_DropSound: {fileID: 0}
+  m_OverridePrefab: {fileID: 0}
+  m_IsCraftable: 0
+  m_CraftingDuration: 2
+  m_UseCraftingSkill: 0
+  m_SkillWindow: Skills
+  m_CraftingSkill: {fileID: 0}
+  m_RemoveIngredientsWhenFailed: 0
+  m_MinCraftingSkillValue: 0
+  m_CraftingAnimatorState: Blacksmithy
+  m_CraftingModifier:
+    modifiers: []
+  ingredients: []
+  properties: []
+  m_UseCategoryCooldown: 0
+  m_Cooldown: 0
+  actions: []
+  m_OverrideEquipPrefab: {fileID: 0}
+  m_Region:
+  - {fileID: -892765762181683183}
+  references:
+    version: 1
 --- !u!114 &2181868964133408931
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -516,7 +575,7 @@ MonoBehaviour:
   name: Purple
   m_EditorColor: {r: 0.8186812, g: 0.5191171, b: 0.8679245, a: 0}
   m_Cooldown: 1
---- !u!114 &3592197753287780707
+--- !u!114 &2330507610025143267
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -525,18 +584,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e14be5e3e6cf2204293682bf65bce5dc, type: 3}
-  m_Name: Blue
+  m_Script: {fileID: 11500000, guid: 6132cc3558d117f4bbad4651b2dbdba7, type: 3}
+  m_Name: Orange
   m_EditorClassIdentifier: 
-  m_Id: 7d8419ae-2f04-4a92-a697-70051aa20da8
-  m_ItemName: Blue
+  m_Id: 3add080e-549b-4f98-b29c-642da99a8623
+  m_ItemName: Orange
   m_UseItemNameAsDisplayName: 1
   m_DisplayName: New Item
-  m_Icon: {fileID: 21300000, guid: 23f4e0f3c91f5794aaeca0c13366d6c3, type: 3}
-  m_Prefab: {fileID: 135237009648689188, guid: b3f5930657d9c5148a2a3895f6bdb46b, type: 3}
-  m_Description: English bluebells (Hyacinthoides non-scripta) are native to France
-    and England and have been gracing gardens and wooded areas with their beautiful
-    bluish-purple flowers since the early 1500s.
+  m_Icon: {fileID: 21300000, guid: 689cfa66960522b42967dfe06ccab49f, type: 3}
+  m_Prefab: {fileID: 329885119914575317, guid: cfef754856dd9244d81a64bbcb87997d, type: 3}
+  m_Description: An orange flower.
   m_Category: {fileID: -4818563383237419559}
   m_IsSellable: 0
   m_BuyPrice: 0
@@ -545,7 +602,7 @@ MonoBehaviour:
   m_SellPrice: 0
   m_SellCurrency: {fileID: 0}
   m_Stack: 1
-  m_MaxStack: 5
+  m_MaxStack: 1
   m_IsDroppable: 1
   m_DropSound: {fileID: 0}
   m_OverridePrefab: {fileID: 0}
@@ -561,6 +618,14 @@ MonoBehaviour:
     modifiers: []
   ingredients: []
   properties: []
+  m_UseCategoryCooldown: 0
+  m_Cooldown: 0
+  actions: []
+  m_OverrideEquipPrefab: {fileID: 0}
+  m_Region:
+  - {fileID: -115863035348999530}
+  references:
+    version: 1
 --- !u!114 &3827709836080779551
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -578,50 +643,6 @@ MonoBehaviour:
   queriesHitTriggers: 0
   debugMessages: 1
   showAllComponents: 0
---- !u!114 &3968749300439717394
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e14be5e3e6cf2204293682bf65bce5dc, type: 3}
-  m_Name: Daisy
-  m_EditorClassIdentifier: 
-  m_Id: 5ef633d7-5fb7-4017-860a-d3d1b73782f5
-  m_ItemName: Daisy
-  m_UseItemNameAsDisplayName: 1
-  m_DisplayName: New Item
-  m_Icon: {fileID: 21300000, guid: a12b8581ac775ea4786932508be8c6fc, type: 3}
-  m_Prefab: {fileID: 4164422254194027874, guid: e333ee2be6ceabd47832f4c060fcf246, type: 3}
-  m_Description: A single daisy flower is actually made up of two separate flowers.
-    The center petals are one flower surrounded by the "rays" of another flower.
-  m_Category: {fileID: 8115454301560725867}
-  m_IsSellable: 0
-  m_BuyPrice: 0
-  m_CanBuyBack: 1
-  m_BuyCurrency: {fileID: 0}
-  m_SellPrice: 0
-  m_SellCurrency: {fileID: 0}
-  m_Stack: 1
-  m_MaxStack: 10
-  m_IsDroppable: 1
-  m_DropSound: {fileID: 0}
-  m_OverridePrefab: {fileID: 0}
-  m_IsCraftable: 0
-  m_CraftingDuration: 2
-  m_UseCraftingSkill: 0
-  m_SkillWindow: Skills
-  m_CraftingSkill: {fileID: 0}
-  m_RemoveIngredientsWhenFailed: 0
-  m_MinCraftingSkillValue: 0
-  m_CraftingAnimatorState: Blacksmithy
-  m_CraftingModifier:
-    modifiers: []
-  ingredients: []
-  properties: []
 --- !u!114 &8115454301560725867
 MonoBehaviour:
   m_ObjectHideFlags: 1
