@@ -29,12 +29,12 @@ MonoBehaviour:
   m_Name: Daffodil
   m_EditorClassIdentifier: 
   m_Id: 757a96e1-2a0d-4a3f-b639-85ba9f62d639
-  m_ItemName: Daffodil
+  m_ItemName: Tulip
   m_UseItemNameAsDisplayName: 1
   m_DisplayName: New Item
   m_Icon: {fileID: 21300012, guid: 058baa77152500b45bb9e28cb5702ffa, type: 3}
-  m_Prefab: {fileID: 7125565368577016036, guid: 53f6b7f56a52d3248a09acd99c6f6b96, type: 3}
-  m_Description: A daffodil.
+  m_Prefab: {fileID: 5163942998815281998, guid: f1aa5db21d59e5e4f9674e7996b1a9c3, type: 3}
+  m_Description: A tulip.
   m_Category: {fileID: -4818563383237419559}
   m_IsSellable: 0
   m_BuyPrice: 0
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6132cc3558d117f4bbad4651b2dbdba7, type: 3}
-  m_Name: Blue
+  m_Name: Blue Pimpernel
   m_EditorClassIdentifier: 
   m_Id: 9023621b-555e-4b8b-bbfd-2535558858a7
   m_ItemName: Blue Pimpernel
@@ -518,7 +518,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6132cc3558d117f4bbad4651b2dbdba7, type: 3}
-  m_Name: Pink
+  m_Name: Rose
   m_EditorClassIdentifier: 
   m_Id: c922e24a-c9db-4ef9-9fdd-0cd86d12e6b4
   m_ItemName: Rose
@@ -585,15 +585,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6132cc3558d117f4bbad4651b2dbdba7, type: 3}
-  m_Name: Orange
+  m_Name: Lotus
   m_EditorClassIdentifier: 
   m_Id: 3add080e-549b-4f98-b29c-642da99a8623
-  m_ItemName: Orange
+  m_ItemName: Lotus
   m_UseItemNameAsDisplayName: 1
   m_DisplayName: New Item
-  m_Icon: {fileID: 21300000, guid: 689cfa66960522b42967dfe06ccab49f, type: 3}
-  m_Prefab: {fileID: 329885119914575317, guid: cfef754856dd9244d81a64bbcb87997d, type: 3}
-  m_Description: An orange flower.
+  m_Icon: {fileID: 21300002, guid: 058baa77152500b45bb9e28cb5702ffa, type: 3}
+  m_Prefab: {fileID: 1008394417342972947, guid: 6c6a063c523a6a54ab9df227c2653cc4, type: 3}
+  m_Description: A lotus.
   m_Category: {fileID: -4818563383237419559}
   m_IsSellable: 0
   m_BuyPrice: 0
