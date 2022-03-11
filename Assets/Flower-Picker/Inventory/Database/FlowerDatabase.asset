@@ -26,7 +26,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6132cc3558d117f4bbad4651b2dbdba7, type: 3}
-  m_Name: Daffodil
+  m_Name: Tulip
   m_EditorClassIdentifier: 
   m_Id: 757a96e1-2a0d-4a3f-b639-85ba9f62d639
   m_ItemName: Tulip
@@ -43,7 +43,7 @@ MonoBehaviour:
   m_SellPrice: 0
   m_SellCurrency: {fileID: 0}
   m_Stack: 1
-  m_MaxStack: 1
+  m_MaxStack: 10
   m_IsDroppable: 1
   m_DropSound: {fileID: 0}
   m_OverridePrefab: {fileID: 0}
@@ -137,7 +137,7 @@ MonoBehaviour:
   m_SellPrice: 0
   m_SellCurrency: {fileID: 0}
   m_Stack: 1
-  m_MaxStack: 1
+  m_MaxStack: 10
   m_IsDroppable: 1
   m_DropSound: {fileID: 0}
   m_OverridePrefab: {fileID: 0}
@@ -402,7 +402,7 @@ MonoBehaviour:
   m_SellPrice: 0
   m_SellCurrency: {fileID: 0}
   m_Stack: 1
-  m_MaxStack: 1
+  m_MaxStack: 5
   m_IsDroppable: 1
   m_DropSound: {fileID: 0}
   m_OverridePrefab: {fileID: 0}
@@ -482,8 +482,8 @@ MonoBehaviour:
   m_Name: FlowerDatabase
   m_EditorClassIdentifier: 
   items:
-  - {fileID: -3918515705015356290}
   - {fileID: 810789739597394985}
+  - {fileID: -3918515705015356290}
   - {fileID: -5573779186765255398}
   - {fileID: -8865146063551466327}
   - {fileID: 2330507610025143267}
@@ -602,7 +602,7 @@ MonoBehaviour:
   m_SellPrice: 0
   m_SellCurrency: {fileID: 0}
   m_Stack: 1
-  m_MaxStack: 1
+  m_MaxStack: 10
   m_IsDroppable: 1
   m_DropSound: {fileID: 0}
   m_OverridePrefab: {fileID: 0}
