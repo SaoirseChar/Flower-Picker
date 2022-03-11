@@ -123,11 +123,11 @@ MonoBehaviour:
   m_Name: Blue
   m_EditorClassIdentifier: 
   m_Id: 9023621b-555e-4b8b-bbfd-2535558858a7
-  m_ItemName: Blue
+  m_ItemName: Blue Pimpernel
   m_UseItemNameAsDisplayName: 1
   m_DisplayName: New Item
   m_Icon: {fileID: 21300000, guid: 23f4e0f3c91f5794aaeca0c13366d6c3, type: 3}
-  m_Prefab: {fileID: 135237009648689188, guid: b3f5930657d9c5148a2a3895f6bdb46b, type: 3}
+  m_Prefab: {fileID: 1123880282250940524, guid: 0e2c3d5984d57864e92ef28826d096d5, type: 3}
   m_Description: A blue flower.
   m_Category: {fileID: -4818563383237419559}
   m_IsSellable: 0
@@ -521,12 +521,12 @@ MonoBehaviour:
   m_Name: Pink
   m_EditorClassIdentifier: 
   m_Id: c922e24a-c9db-4ef9-9fdd-0cd86d12e6b4
-  m_ItemName: Pink
+  m_ItemName: Rose
   m_UseItemNameAsDisplayName: 1
   m_DisplayName: New Item
-  m_Icon: {fileID: 21300000, guid: 39ca903789196f94dbfb4606373e7a3a, type: 3}
-  m_Prefab: {fileID: 1567214763175434471, guid: 8e6954a5c27e51c4ca8eca699010ce91, type: 3}
-  m_Description: A pink flower
+  m_Icon: {fileID: 21300014, guid: 058baa77152500b45bb9e28cb5702ffa, type: 3}
+  m_Prefab: {fileID: 4781253325891608675, guid: add4fee45001fa045a8865c0300b30a2, type: 3}
+  m_Description: A rose.
   m_Category: {fileID: -4818563383237419559}
   m_IsSellable: 0
   m_BuyPrice: 0
