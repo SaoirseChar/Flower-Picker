@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TakeScreenshot : MonoBehaviour
 {
+    [Header("Screen Capture")]
     private string directoryName = "Screenshots";
     private string screenshotName = "TestImage.png";
 
