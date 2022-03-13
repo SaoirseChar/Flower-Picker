@@ -15,7 +15,6 @@ MonoBehaviour:
   actions:
   - id: 0
   - id: 1
-  - id: 2
   references:
     version: 1
     00000000:
@@ -32,11 +31,3 @@ MonoBehaviour:
         m_WindowName: Inventory
         m_DestroyWhenEmpty: 1
         m_Amount: 1
-    00000002:
-      type: {class: SetEnabled, ns: DevionGames, asm: DevionGames.Triggers}
-      data:
-        m_Type: DevionGames.SetEnabled
-        m_Enabled: 1
-        m_Target: 1
-        m_ComponentName: 
-        m_Enable: 0
