@@ -19,7 +19,7 @@ public class LevelLoader : MonoBehaviour
         //Return to flower picking
         if (Input.GetKeyDown(KeyCode.R))
         {
-            StartCoroutine(ReturnLevel(SceneManager.GetActiveScene().buildIndex - 1));
+            StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex - 1));
         }
     }
 
