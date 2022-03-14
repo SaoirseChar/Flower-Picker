@@ -7,18 +7,11 @@ public class TakeScreenshot : MonoBehaviour
     [Header("Screen Capture")]
     private string directoryName = "Screenshots";
     private string screenshotName = "TestImage.png";
-    private GameObject crosshairCanvas;
-
-    private void Start()
-    {
-        crosshairCanvas = GameObject.FindGameObjectWithTag("CrosshairCanvas");
-    }
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.C))
         {
-            crosshairCanvas.SetActive(false);
             SaveScreenshotToDocuments();
             print("Image saved!");
         }
